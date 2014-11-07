@@ -1,0 +1,535 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+	<title>CodeREV Kids - Home</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css?v=11" />
+    <link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" />
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="http://f.vimeocdn.com/js/froogaloop2.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+	<script type="text/javascript" src="js/init.js?v=11"></script>
+
+    <script>
+    $(function() {
+        var players = {
+            'player1': $f($('#player1')[0]),
+            'player2': $f($('#player2')[0]),
+            'player3': $f($('#player3')[0])
+        };
+        var allPlayed = false;
+
+        players['player1'].addEvent('ready', function() {
+            players['player1'].addEvent('finish', onFinish);
+        });
+        players['player2'].addEvent('ready', function() {
+            players['player2'].addEvent('finish', onFinish);
+        });
+        players['player3'].addEvent('ready', function() {
+            players['player3'].addEvent('finish', onFinish);
+        });
+
+        function onFinish(id) {
+            $('#' + id).hide();
+
+            var nextId = $('#' + id).next().attr('id');
+            if (id == 'player3')
+                nextId = 'player1';
+            
+            $('#' + nextId).show();
+
+            if (allPlayed)
+                players[id].api('seekTo', 0);
+            
+            setTimeout(function(){
+                players[nextId].api('play');
+            }, 1000);
+
+            if (id == 'player3') allPlayed = true;
+        }
+
+    });
+    </script>
+	
+</head>
+        
+<body>
+    
+    <header class="navbar navbar-fixed-top navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+			    <a class="navbar-brand" href="#">Coder Revolution</a>
+
+			    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#ks-navbar-collapse">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			    </button>
+			</div>
+
+		    <div class="collapse navbar-collapse" id="ks-navbar-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="program.html">Our Program</a></li>
+                    <li><a href="why.html">Why Coding</a></li>
+                    <li><a href="blog">Blog</a></li>
+                    <li><a href="schools.html">Schools</a></li>
+					<li><a href="http://coderevportal.com/moodle/">Login</a></li>
+                    <li class="slider"></li>
+				</ul>
+		    </div>
+		</div>
+    </header>
+
+    <div class="tp-banner-container">
+        <div class="tp-banner" >
+            <ul>    <!-- SLIDE  -->
+                <li data-transition="fade" data-slotamount="7" data-masterspeed="500"  data-saveperformance="on"  data-title="Intro Slide">
+                    <!-- MAIN IMAGE -->
+                    <img src="img/home1-new.jpg"  alt="slidebg1" data-bgposition="center top" data-bgfit="height(100%)" data-bgrepeat="no-repeat" style="background-color:#7b7a7f;">
+                    <!-- LAYERS -->
+
+                    <!-- LAYER NR. 4 -->
+                    <div class="tp-caption grey_heavy_72 skewfromrightshort tp-resizeme rs-parallaxlevel-0"
+                        data-x="26"
+                        data-y="47" 
+                        data-speed="1000"
+                        data-start="2000"
+                        data-easing="Power3.easeInOut"
+                        data-splitin="words"
+                        data-splitout="none"
+                        data-elementdelay="0.15"
+                        data-endelementdelay="0.01"
+                        style="z-index: 6; width: 380px; font-size: 28px; ">Tech savvy Instructors teach advanced programming skills.
+                    </div>
+
+                    <div class="tp-caption grey_heavy_72 skewfromrightshort tp-resizeme rs-parallaxlevel-0"
+                        data-x="26"
+                        data-y="90" 
+                        data-speed="1000"
+                        data-start="2700"
+                        data-easing="Power3.easeInOut"
+                        data-splitin="words"
+                        data-splitout="none"
+                        data-elementdelay="0.15"
+                        data-endelementdelay="0.01"
+                        style="z-index: 5; width: 380px; font-size: 28px;">These mentors keep students excited about learning.
+                    </div>
+
+                    <!-- LAYER NR. 5 -->
+                    <div class="tp-caption customin rs-parallaxlevel-0"
+                        data-x="0"
+                        data-y="34" 
+                        data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-speed="1000"
+                        data-start="1000"
+                        data-easing="Power3.easeInOut"
+                        data-elementdelay="0.1"
+                        data-endelementdelay="0.1"
+                        style="z-index: 4; width: 760px; height: 110px; background: rgba(50,188,167,0.8);">
+                    </div>
+
+                </li>
+                <!-- SLIDE  -->
+                <li data-transition="slideleft" data-slotamount="7" data-masterspeed="2000" data-saveperformance="on"  data-title="">
+                    <!-- MAIN IMAGE -->
+                    <img src="img/home2-new.jpg"  alt="laptopmockup_sliderdy" data-bgposition="right top" data-duration="12000" data-ease="Power0.easeInOut" data-bgfit="height(100%)" style="background-color:#615f64" >
+                    <!-- LAYERS -->
+
+                    <!-- LAYER NR. 2 -->
+                    <div class="tp-caption lfl rs-parallaxlevel-10"
+                        data-x="10"
+                        data-y="45"
+                        data-speed="700"
+                        data-start="1000"
+                        style="z-index: 3; font-size: 28px; font-family: FuturaLt;">
+                            Students are challenged as they are led through 
+                    </div>
+
+                    <div class="tp-caption lfr rs-parallaxlevel-10"
+                        data-x="10"
+                        data-y="105" 
+                        data-speed="700"
+                        data-start="1700"
+                        style="z-index: 3; font-size: 28px; text-transform: uppercase;">
+                            interactive lesson plans that walk them<br /> through each step of the learning process.
+                    </div>
+
+                </li>
+                <!-- SLIDE  -->
+                <li data-transition="slideleft" data-slotamount="7" data-masterspeed="1000"  data-saveperformance="on"  data-title="Parallax 3D">
+                    <!-- MAIN IMAGE -->
+                    <img src="img/home3-new.jpg"  alt="3dbg" data-bgposition="center top" data-bgfit="height(100%)" data-bgrepeat="no-repeat" style="background-color:#605f64">
+                    <!-- LAYERS -->
+
+                    <!-- LAYER NR. 4 -->
+                    <div class="tp-caption grey_heavy_72 skewfromrightshort tp-resizeme rs-parallaxlevel-0"
+                        data-x="26"
+                        data-y="47" 
+                        data-speed="1000"
+                        data-start="2000"
+                        data-easing="Power3.easeInOut"
+                        data-splitin="words"
+                        data-splitout="none"
+                        data-elementdelay="0.15"
+                        data-endelementdelay="0.01"
+                        style="z-index: 6; font-size: 30px; letter-spacing: 2px; font-family: FuturaLT-Light;">Students create with technology both 
+
+                    </div>
+
+                    <div class="tp-caption grey_heavy_72 skewfromrightshort tp-resizeme rs-parallaxlevel-0"
+                        data-x="26"
+                        data-y="90" 
+                        data-speed="1000"
+                        data-start="2700"
+                        data-easing="Power3.easeInOut"
+                        data-splitin="words"
+                        data-splitout="none"
+                        data-elementdelay="0.15"
+                        data-endelementdelay="0.01"
+                        style="z-index: 5; font-size: 30px; letter-spacing: 2px;">individually and together in teams
+                    </div>
+
+                    <!-- LAYER NR. 5 -->
+                    <div class="tp-caption customin rs-parallaxlevel-0"
+                        data-x="0"
+                        data-y="34" 
+                        data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                        data-speed="1000"
+                        data-start="1000"
+                        data-easing="Power3.easeInOut"
+                        data-elementdelay="0.1"
+                        data-endelementdelay="0.1"
+                        style="z-index: 4; width: 590px; height: 110px; background: rgba(50,188,167,0.8);">
+                    </div>
+                </li>
+                
+            </ul>
+            <div class="tp-bannertimer"></div>  
+        </div>
+    </div>
+
+    <div class="call">
+        <div class="container">
+            <a href="#fill-form">Click now, save $100!</a>
+            Call us at: (310) 450-4984
+            <div class="video">
+                <iframe id="player1" src="//player.vimeo.com/video/104070685?api=1&title=0&amp;byline=0&amp;portrait=0&player_id=player1" width="430" height="242" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <iframe id="player2" src="//player.vimeo.com/video/104155199?api=1&title=0&amp;byline=0&amp;portrait=0&player_id=player2" width="430" height="242" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="display: none;"></iframe>
+                <iframe id="player3" src="//player.vimeo.com/video/104070717?api=1&title=0&amp;byline=0&amp;portrait=0&player_id=player3" width="430" height="242" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="display: none;"></iframe>
+            </div>
+        </div>
+    </div>
+    <!--
+    <div class="top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Join the Revolution </h1>
+                    <p>Desorporis suscipit labornisi ut
+                    aliquid ex ea commodi consequatuis
+                    autem </p>
+                    <a href="#" id="sign-up-scroll" class="btn btn-lg btn-rounded btn-success">Sign up for Free Now</a>
+                </div>
+                <div class="col-md-6">
+                    <iframe width="560" height="315" src="//www.youtube.com/embed/ESXgJ9-H-2U?rel=0" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>-->
+
+    <div class="icons">
+        <div class="container">
+            <h2>CodeREV Kids Learn to Create…</h2>
+            <div id="icons">
+                <div class="games"><i></i><div class="icon-name">Games</div></div>
+                <div class="apps"><i></i><div class="icon-name">Apps</div></div>
+                <div class="websites"><i></i><div class="icon-name">Websites</div></div>
+                <div class="robots"><i></i><div class="icon-name">Robots</div></div>
+
+                <ul class="sub-icons sub-icons-games">
+                    <li>
+                        <div class="line"></div>
+                        <a href="#" class="sub-icon sub-icon-minecraft"></a>
+                        <a href="#" class="icon-name">Minecraft</a>
+                        Kids absolutely love Minecraft!  So why not use what they love to help motivate students to learn while they have fun.  We teach Minecraft modding.  Modding allows students to create their own elements in the Minecraft environment using Java programming.  Java is an object-oriented programming language that is taught in computer science classes in college.  
+                    </li>
+                    <li>
+                        <div class="line"></div>
+                        <a href="#" class="sub-icon sub-icon-scratch"></a>
+                        <a href="#" class="icon-name">Scratch</a>
+                        Developed at MIT, Scratch introduces programming to students while revealing the fun we can have when we control our environments.  We teach students to create their own exciting, dynamic games using this amazing program.  Through our interactive lessons, students learn both the introductory elements to programming and to game design.  
+                    </li>
+                    <li>
+                        <div class="line"></div>
+                        <a href="#" class="sub-icon sub-icon-gamesalad"></a>
+                        <a href="#" class="icon-name">Gamesalad</a>
+                        Students learn important programming concepts while having a blast.  We then teach students to use industry standard professional software to program their own apps using meteor.
+                    </li>
+                    <li>
+                        <div class="line"></div>
+                        <a href="#" class="sub-icon sub-icon-unity"></a>
+                        <a href="#" class="icon-name">Unity</a>
+                        We teach students app design and game design through Unity 3D game engine.  This tool allows students to create very complex 3D games and apps and learn to use Javascript and C# in a hands on, fun, creative environment.
+                    </li>
+                    <li></li>
+                </ul>
+
+                <ul class="sub-icons sub-icons-apps">
+                    <li>
+                        <div class="line"></div>
+                        <a href="#" class="sub-icon sub-icon-gamesalad"></a>
+                        <a href="#" class="icon-name">Gamesalad</a>
+                        Students learn important programming concepts while having a blast.  We then teach students to use industry standard professional software to program their own apps using meteor.
+                    </li>
+                    <li>
+                        <div class="line"></div>
+                        <a href="#" class="sub-icon sub-icon-unity"></a>
+                        <a href="#" class="icon-name">Unity</a>
+                        We teach students app design and game design through Unity 3D game engine.  This tool allows students to create very complex 3D games and apps and learn to use Javascript and C# in a hands on, fun, creative environment.
+                    </li>
+                    <li></li>
+                </ul>
+
+                <ul class="sub-icons sub-icons-robots">
+                    <li>
+                        <div class="line"></div>
+                        <a href="#" class="sub-icon sub-icon-littlebits"></a>
+                        <a href="#" class="icon-name">Little Bits</a>
+                        Kids just love to build projects using engineering stepping stones.  Our Little Bits exploration program enables students to work together to create dynamic electronic projects while instilling skills in teamwork and creativity.  Students can program their simple and complex projects and begin building at early ages.
+                    </li>
+                    <li>
+                        <div class="line"></div>
+                        <a href="#" class="sub-icon sub-icon-mindstorms"></a>
+                        <a href="#" class="icon-name">Lego Mindstorms</a>
+                        What kid hasn’t always wanted to have their own robot that they can control?  In our robotics class, students learn to program their robots to do amazing things.  This is one of the absolutely most fun and educational things we do here at CodeREV Kids.  
+                    </li><!--
+                    <li>
+                        <div class="line"></div>
+                        <a href="#" class="sub-icon sub-icon-mindstorms"></a>
+                        <a href="#" class="icon-name">Mindstorms</a>
+                        As children create with Scratch, they learn to think creatively, work collaboratively, and reason systematically. 
+                    </li> -->
+                    <li>
+                        <div class="line"></div>
+                        <a href="#" class="sub-icon sub-icon-arduino"></a>
+                        <a href="#" class="icon-name">Arduino</a>
+                        Students truly get to experience their super powers when they learn to program with Arduinos. Students learn the beginning building blocks of C++ as they learn to program their Arduinos to move, light up, make noise, and process a lot of information.  This amazing platform provides a hotbed of creativity for more advanced students to embark upon the creation of projects that will blow your mind!  
+                    </li>
+                    <li></li>
+                </ul>
+
+                <ul class="sub-icons sub-icons-websites">
+                    <li>
+                        <div class="line"></div>
+                        <a href="#" class="sub-icon sub-icon-sublime"></a>
+                        <a href="#" class="icon-name">Sublime Text</a>
+                        Sublime Text is one of the most commonly used editors for writing code in HTML, CSS, and Javascript.  It allows us to see what we create live as we create it and save our work.
+                    </li>
+                    <li>
+                        <div class="line"></div>
+                        <a href="#" class="sub-icon sub-icon-html"></a>
+                        <a href="#" class="icon-name">Html 5</a>
+                        Html 5 is the newest version of HTML.  This is what most programmers would refer to as the skeleton or the blueprints of coding.  It is the code that ultimately lies underneath just about any programming language, and it is a very important language to learn.  We teach to use this to build website structure and content.  Then, students learn to use CSS and Javascript to spice up what they create.  
+                    </li>
+                    <li>
+                        <div class="line"></div>
+                        <a href="#" class="sub-icon sub-icon-css"></a>
+                        <a href="#" class="icon-name">Css</a>
+                        CSS is responsible for the aesthetic appearance of our websites.  Students learn to use CSS to make their website designs look and feel beautiful.  By learning this language, students get to learn the artistic power they wield over their digital worlds.
+                    </li>
+                    <li>
+                        <div class="line"></div>
+                        <a href="#" class="sub-icon sub-icon-js"></a>
+                        <a href="#" class="icon-name">Javascript</a>
+                        Javascript is one of the most important languages students can learn today.  More and more programming is trending toward javascript programming right now.  For developing websites, most functions and movement come from javascript.  We teach this complex language by breaking it down in easy to understand exercises using our CodeREV Kids App.  We then teach students to control what they have created using Javascript with their websites, and finally, teach them to use the fun and ever useful  jquery.     
+                    </li>
+                    <li>
+                        <div class="line"></div>
+                        <a href="#" class="sub-icon sub-icon-monkey"></a>
+                        <a href="#" class="icon-name">Code Monkey</a>
+                        As you can see when you visit our Center, we are big fans of monkeys!  We use this amazing program developed by some of the same MIT guys and gals to teach programming functions using text.  This helps students to grasp the concepts behind what they are doing before they actually learn to apply this in each programming language.  
+                    </li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="long-line long-line-left"></div>
+            <div class="long-line long-line-right"></div>
+        </div>
+    </div>
+
+    <div class="motto2">
+        <div class="container">
+            <h2>“Empowering Students to become Tomorrow’s Creators, Designers,
+                Programmers, and Developers”</h2>
+        </div>
+    </div>
+
+    <div class="featured">
+        <div class="container">
+            <h3>Skills Code REV Kids learn...</h3>
+            <ul>
+                <li>
+                    <a href="#">Creativity</a>
+                    <div class="hover"><div class="hover-inner">
+                        <h6>Creativity</h6>
+                        We at CodeREV Kids believe that a child’s creativity should be explored in order to grow to its full potential.  Our program fosters creativity in students as they learn the power they possess to create in their own digital worlds.  We offer many different creative outlets for students to explore their creative minds. 
+                    </div></div>
+                </li>
+                <li><a href="#">Math</a>
+                    <div class="hover"><div class="hover-inner">
+                        <h6>Math</h6>
+                        We teach students to apply mathematics to programming.  This allows them to experience first-hand the practical application of the math they learn at school.  Additionally, we offer “Mathcraft,” a cutting edge, data and research supported program developed by our very own Jim Pike that teaches core curriculum math concepts for 3rd – 8th graders in a fun, interactive environment, using Minecraft. 
+                    </div></div>
+                </li>
+                <li><a href="#">Detail</a>
+                    <div class="hover"><div class="hover-inner">
+                        <h6>Detail</h6>
+                        Orientation.  So many important fields in life require detail orientation.  Learning programming teaches students to be very detail-oriented because if students type just one letter, character, or space incorrectly in their code, their programs won’t work!
+                    </div></div>
+                </li>
+                <li><a href="#">STEM</a>
+                    <div class="hover"><div class="hover-inner">
+                        <h6>STEM</h6>
+                        Science, Technology, Engineering, and Math are what the country and school systems are attempting to teach our next generations.  We provide hands on exploration in these vital educational areas, allowing even non-math or science students to thrive in STEM.  After all, what good is STEM if students don’t get to experience it in a hands-on way? 
+                    </div></div>
+                </li>
+                <li><a href="#">Problem Solving</a>
+                    <div class="hover"><div class="hover-inner">
+                        <h6>Problem Solving</h6>
+                        We teach students to use their imaginations to think outside the box to problem solve.  Because our program is designed with a learn-by-doing approach, students get to dive into their digital projects head first and learn as they explore the technology required to build each project.  This exploration allows students to learn to think critically and ask the right questions as they encounter and conquer obstacles throughout their projects.  Our mentors are there to lead students when they misstep, so that they never get stuck for too long and they never give up. 
+                    </div></div>
+                </li>
+                <li><a href="#">Team Work</a>
+                    <div class="hover"><div class="hover-inner">
+                        <h6>Team Work</h6>
+                        We lead students through group projects, which instills in students a richer understanding of the power of teamwork.  By tackling projects together with their peers, Code REV Kids are empowered to work together toward building a project and get to see how each person’s role is critical to the success of the end goal.  This instills in students the same skills that will continue to be vital throughout their lives in the outside world.
+                    </div></div>
+                </li>
+                <li><a href="#">Logic</a>
+                    <div class="hover"><div class="hover-inner">
+                        <h6>Logic</h6>
+                        The programming we teach uses logic that builds off of itself.  We teach students to understand how this logic works at an early age, which truly helps students build this vital intellectual skill.  Furthermore, by teaching students to learn programming across many different languages and types, we instill in them an understanding of logic that is not context specific. 
+                    </div></div>
+                </li>
+                <li><a href="#">Common Core</a>
+                    <div class="hover"><div class="hover-inner">
+                        <h6>Common Core</h6>
+                        The magic word in so many schools today is present in almost all of our lessons.  We teach to the common core in computer science, literacy, problem solving, and mathematics.  We also teach to the common core by providing programs that are all project based so that students are learning through exploration. 
+                    </div></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--
+    <div class="introduce">
+        <div class="container">
+            <h4>Kids learn:  HTML5, CSS, Javascript, Java Programming and C++</h4>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta.
+            Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas tristique orci ac sem. </p>
+
+            <p>Duis ultricies pharetra magna. Donec accumsan malesuada orci. Donec sit amet eros.
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus.</p>
+        </div>
+    </div>
+    -->
+
+    <div class="signup" id="fill-form">
+        <div class="container">
+            <h4>Save $100! Enter Here and We Will Contact You!</h4>
+            
+            <form role="form">
+              <div class="form-group">
+                <label>Full Name</label>
+                <input type="text" id="name" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label>Email Address</label>
+                <input type="text" id="email" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label>Phone Number</label>
+                <input type="text" id="phone" class="form-control" />
+              </div>
+              <!--
+              <div class="form-group">
+                <label>Password</label>
+                <input type="password" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label>Confirm Password</label>
+                <input type="password" class="form-control" />
+              </div>
+          -->
+              <button type="submit" class="btn btn-lg btn-success">Get Your $100 Savings</button>
+
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+    	<div class="container">
+    		<div class="row">
+                <!--
+    			<div class="col-sm-6 col-md-3">
+                    <h6>Some links</h6>
+	    			<ul>
+                        <li><a href="#">Nice Link 1</a></li>
+                        <li><a href="#">Nice Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                        <li><a href="#">Nice Link 4</a></li>
+                        <li><a href="#">Link 5</a></li>
+                    </ul>
+				</div>
+                <div class="col-sm-6 col-md-3">
+                    <h6>Some links</h6>
+                    <ul>
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Nice Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                        <li><a href="#">Nice Link 4</a></li>
+                        <li><a href="#">Link 5</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <h6>Some links</h6>
+                    <ul>
+                        <li><a href="#">Nice Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Nice Link 3</a></li>
+                        <li><a href="#">Link 4</a></li>
+                        <li><a href="#">Nice Link 5</a></li>
+                    </ul>
+                </div>
+                -->
+				<div class="col-sm-6 col-md-3">
+                    <h6>Get Social with Us</h6>
+					<ul class="social">
+                        <li><a target="_blank" href="https://www.facebook.com/coderevkids"><i class="fa fa-facebook-square"></i></a></li>
+						<li><a target="_blank" href="http://twitter.com/coderevkids"><i class="fa fa-twitter-square"></i></a></li>
+                        <li><a target="_blank" href="http://instagram.com/coderevkids"><i class="fa fa-instagram"></i></a></li>
+                        <li><a target="_blank" href="http://youtube.com/coderevkids"><i class="fa fa-youtube-square"></i></a></li>
+					</ul>
+                    <h6>Subscribe to our newsletter</h6>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Enter your email address">
+                        <span class="input-group-btn">
+                          <button class="btn btn-default" type="button">Go</button>
+                        </span>
+                    </div>
+				</div>
+			</div>
+    	</div>
+    </footer>
+	
+</body>
+</html>

@@ -1,0 +1,44 @@
+20141008T182231: www.coderevkids.com/send.php
+PHP Warning:  mysql_real_escape_string(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /hermes/bosoraweb055/b917/ipg.coderevkidscom/send.php on line 3
+PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /hermes/bosoraweb055/b917/ipg.coderevkidscom/send.php on line 3
+PHP Warning:  mysql_real_escape_string(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /hermes/bosoraweb055/b917/ipg.cod
+20141009T012119: coderevkids.com/send.php
+PHP Warning:  mysql_real_escape_string(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /hermes/bosoraweb055/b917/ipg.coderevkidscom/send.php on line 3
+PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /hermes/bosoraweb055/b917/ipg.coderevkidscom/send.php on line 3
+PHP Warning:  mysql_real_escape_string(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /hermes/bosoraweb055/b917/ipg.cod
+20141009T174156: www.coderevkids.com/send.php
+PHP Warning:  mysql_real_escape_string(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /hermes/bosoraweb055/b917/ipg.coderevkidscom/send.php on line 3
+PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /hermes/bosoraweb055/b917/ipg.coderevkidscom/send.php on line 3
+PHP Warning:  mysql_real_escape_string(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /hermes/bosoraweb055/b917/ipg.cod
+20141009T195805: coderevkids.com/send.php
+PHP Warning:  mysql_real_escape_string(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /hermes/bosoraweb055/b917/ipg.coderevkidscom/send.php on line 4
+PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /hermes/bosoraweb055/b917/ipg.coderevkidscom/send.php on line 4
+PHP Warning:  mysql_real_escape_string(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /hermes/bosoraweb055/b917/ipg.cod
+20141009T200228: www.coderevkids.com/send.php
+PHP Warning:  mysql_real_escape_string(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /hermes/bosoraweb055/b917/ipg.coderevkidscom/send.php on line 3
+PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /hermes/bosoraweb055/b917/ipg.coderevkidscom/send.php on line 3
+PHP Warning:  mysql_real_escape_string(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /hermes/bosoraweb055/b917/ipg.cod
+20141010T045353: coderevkids.com/send.php
+suexec policy violation: see suexec log for more details
+
+20141106T162339: coderevkids.com/send.php
+PHP Parse error:  syntax error, unexpected T_ECHO in /hermes/bosoraweb055/b917/ipg.coderevkidscom/send.php on line 8
+
+20141106T164205: coderevkidscom.ipage.com/send.php
+PHP Parse error:  syntax error, unexpected T_ECHO in /hermes/bosoraweb055/b917/ipg.coderevkidscom/send.php on line 8
+
+20141106T165825: coderevkids.com/send.php
+PHP Notice:  Undefined variable: msg2 in /hermes/bosoraweb055/b917/ipg.coderevkidscom/send.php on line 8
+
+20141106T172836: coderevkids.com/send.php
+PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /hermes/bosoraweb055/b917/ipg.coderevkidscom/send.php on line 8
+
+20141106T173753: coderevkids.com/send.php
+PHP:  syntax error, unexpected '!' in /opt/users/ipg/c/o/ipg.coderevkidscom/php53/php.ini on line 1100
+
+20141106T174122: coderevkids.com/send.php
+suexec policy violation: see suexec log for more details
+
+20141106T174133: coderevkids.com/send.php
+suexec policy violation: see suexec log for more details
+

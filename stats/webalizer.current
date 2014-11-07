@@ -1,0 +1,845 @@
+# Webalizer V2.23-08 Incremental Data - 11/06/2014 00:58:56
+2014 11 6 0 58 56
+3471 3218 135 108 29 17 192883259 577 157 0
+2 63 234 1 6
+518 480 28709461 26 91 23
+420 389 24141535 18 73 17
+633 585 36216148 39 112 33
+901 823 46918925 42 183 43
+936 880 53367026 39 114 40
+63 61 3530164 2 4 2
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+457 431 27291777 56
+104 99 6324699 9
+48 42 1885717 24
+166 158 8337361 32
+3 2 15691 2
+28 27 1689178 3
+1 1 31195 1
+24 24 1620644 1
+117 107 6493408 11
+29 29 2263773 1
+188 187 11551438 9
+149 142 8549627 17
+164 159 11569970 10
+192 184 11612972 20
+185 178 11746023 13
+255 246 15950946 23
+58 51 3824469 9
+137 128 7474368 16
+207 197 12039734 18
+28 28 1800421 3
+489 369 14375267 258
+160 155 9145753 9
+151 145 9090414 21
+131 129 8198414 11
+0
+0
+0
+3218
+0
+0
+0
+0
+0
+4
+0
+64
+1
+0
+0
+0
+0
+0
+0
+0
+0
+153
+10
+20
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/img/icons-sub.png
+1 20 0 6870680 0 0
+/img/bg-kids.jpg
+1 82 0 14170420 0 0
+/rs-plugin/assets/gridtile.png
+1 1 0 933 0 0
+/rs-plugin/assets/coloredbg.png
+1 1 0 184 0 0
+/img/track-purple2.png
+1 39 0 48555 0 0
+/blog/
+0 123 0 699043 16 11
+/img/logo3.png
+1 85 0 668525 0 0
+/img/school.jpg
+1 25 0 337675 0 0
+/img/why-new.jpg
+1 21 0 2525145 0 0
+/img/bg-input.png
+1 79 0 109573 0 0
+/img/bg-icons.jpg
+1 81 0 2425707 0 0
+/img/why2.jpg
+1 21 0 568113 0 0
+/blog/xmlrpc.php
+0 10 0 3975 0 0
+/rs-plugin/assets/arrowleft.png
+1 1 0 43543 0 0
+/img/home2-new.jpg
+1 90 0 12664350 0 0
+/img/schools3-new.jpg
+1 26 0 4581148 0 0
+/img/stone.png
+1 40 0 817080 0 0
+/fonts/sansation_bold-webfont.ttf
+0 2 0 73760 0 0
+/blog/wp-content/themes/twentyfourteen/images/pattern-dark.svg
+0 1 0 1176 0 0
+/fonts/FuturaLT-Light.woff
+0 84 0 1149120 0 0
+/fonts/FuturaLT-Heavy.ttf
+0 1 0 21356 0 0
+/rs-plugin/assets/small_left.png
+1 1 0 670 0 0
+/rs-plugin/assets/bullets.png
+1 1 0 1153 0 0
+/fonts/sansation_regular-webfont.ttf
+0 2 0 72872 0 0
+/rs-plugin/js/jquery.themepunch.tools.min.js
+0 95 0 9013600 0 0
+/js/bootstrap.min.js
+0 91 0 2649010 0 0
+/rs-plugin/assets/bullets2.png
+1 1 0 278 0 0
+/rs-plugin/assets/shadow2.png
+1 1 0 5661 0 0
+/img/bg-top.jpg
+1 3 0 522078 0 0
+/rs-plugin/assets/loader.gif
+1 1 0 2545 0 0
+/img/schools2-new.jpg
+1 27 0 5541705 0 0
+/rs-plugin/assets/arrow_left.png
+1 1 0 807 0 0
+/img/track-orange2.png
+1 39 0 49842 0 0
+/img/program.jpg
+1 41 0 6076938 0 0
+/fonts/TextureRoad.ttf
+0 1 0 631312 0 0
+/blog/wp-content/themes/twentyfourteen/js/functions.js
+0 9 0 31041 0 0
+/why.html
+0 31 0 319238 0 1
+/fonts/sansation_bold-webfont.eot
+0 5 0 81710 0 0
+/fonts/FuturaLT.eot
+0 5 0 110160 0 0
+/img/why1.jpg
+1 21 0 990381 0 0
+/rs-plugin/font/revicons.woff
+0 76 0 572736 0 0
+/rs-plugin/assets/arrow_right.png
+1 1 0 820 0 0
+/fonts/FuturaLT.woff
+0 84 0 1131648 0 0
+/rs-plugin/assets/bullet.png
+1 1 0 2254 0 0
+/rs-plugin/assets/shadow3.png
+1 1 0 6428 0 0
+/rs-plugin/assets/gridtile_3x3_white.png
+1 1 0 935 0 0
+/rs-plugin/assets/arrow_right2.png
+1 1 0 343 0 0
+/rs-plugin/assets/arrow_left2.png
+1 1 0 348 0 0
+/blog/wp-content/themes/twentyfourteen/genericons/genericons.css
+0 12 0 372540 0 0
+/rs-plugin/js/jquery.themepunch.revolution.min.js
+0 93 0 10334811 0 0
+/img/track-pink.png
+1 39 0 57174 0 0
+/program.html
+0 47 0 529126 6 9
+/rs-plugin/css/settings.css
+0 95 0 6809410 0 0
+/rs-plugin/assets/bullet_boxed.png
+1 1 0 924 0 0
+/img/iron.png
+1 41 0 992897 0 0
+/js/init.js
+0 94 0 547832 0 0
+/rs-plugin/assets/large_left.png
+1 2 0 3034 0 0
+/fonts/FuturaLT-Light.eot
+0 5 0 112610 0 0
+/rs-plugin/assets/large_right.png
+1 2 0 3122 0 0
+/css/style.css
+0 94 0 1815704 0 0
+/rs-plugin/font/revicons.ttf
+0 1 0 11968 0 0
+/rs-plugin/assets/gridtile_white.png
+1 1 0 931 0 0
+/img/home1-new.jpg
+1 89 0 10645913 0 0
+/fonts/FuturaLT-Heavy.woff
+0 84 0 1137360 0 0
+/rs-plugin/assets/small_right.png
+1 1 0 668 0 0
+/fonts/FuturaLT.ttf
+0 1 0 21872 0 0
+/fonts/TextureRoad.woff
+0 80 0 22720883 0 0
+/css/bootstrap.min.css
+0 92 0 9196504 0 0
+/rs-plugin/assets/gridtile_3x3.png
+1 1 0 938 0 0
+/rs-plugin/font/revicons.eot
+0 5 0 60680 0 0
+/rs-plugin/images/gradient/g40.png
+1 1 0 42464 0 0
+/send.php
+0 16 0 16 3 0
+/rs-plugin/assets/arrowright.png
+1 1 0 43719 0 0
+/rs-plugin/assets/shadow1.png
+1 1 0 4289 0 0
+/img/schools1-new.jpg
+1 26 0 4488016 0 0
+/fonts/FuturaLT-Heavy.eot
+0 5 0 107710 0 0
+/rs-plugin/assets/navigdots_bgtile.png
+1 1 0 149 0 0
+/blog/wp-content/themes/twentyfourteen/images/pattern-light.svg
+0 1 0 540 0 0
+/rs-plugin/assets/navigdots.png
+1 1 0 743 0 0
+/fonts/FuturaLT-Light.ttf
+0 1 0 22336 0 0
+/rs-plugin/images/gradient/g30.png
+1 1 0 42935 0 0
+/blog/wp-includes/css/buttons.min.css
+0 5 0 29895 0 0
+/img/icons4.png
+1 82 0 15209114 0 0
+/blog/wp-includes/js/jquery/jquery.js
+0 9 0 862263 0 0
+/
+0 150 0 4679250 117 15
+/blog/wp-includes/js/jquery/jquery-migrate.min.js
+0 9 0 64800 0 0
+/img/home3-new.jpg
+1 85 0 10409525 0 0
+/fonts/TextureRoad.eot
+0 5 0 3157640 0 0
+/fonts/sansation_regular-webfont.eot
+0 5 0 78255 0 0
+/fonts/sansation_bold-webfont.woff
+0 79 0 1543660 0 0
+/rs-plugin/assets/boxed_bgtile.png
+1 1 0 2746 0 0
+/blog/wp-includes/wlwmanifest.xml
+0 5 0 5225 0 0
+/img/track-blue2.png
+1 39 0 49725 0 0
+/rs-plugin/assets/timer.png
+1 85 0 10625 0 0
+/blog/wp-login.php
+0 17 0 42408 0 0
+/blog/wp-includes/css/dashicons.min.css
+0 5 0 202250 0 0
+/img/wood.png
+1 41 0 1202325 0 0
+/rs-plugin/assets/small_left_boxed.png
+1 1 0 846 0 0
+/img/schools4-new.jpg
+1 26 0 4461314 0 0
+/fonts/sansation_regular-webfont.woff
+0 81 0 1513404 0 0
+/schools.html
+0 36 0 519480 2 3
+/blog/wp-includes/js/comment-reply.min.js
+0 5 0 3785 0 0
+/img/diamond.png
+1 40 0 982440 0 0
+/img/track-green.png
+1 39 0 57642 0 0
+/rs-plugin/assets/small_right_boxed.png
+1 1 0 807 0 0
+/blog/wp-cron.php
+0 9 0 0 8 7
+/img/summercamp.png
+1 40 0 903720 0 0
+/blog/wp-content/themes/twentyfourteen/style.css
+0 12 0 929220 0 0
+# End Of Table - urls
+# -sites- (monthly)
+184.154.36.164
+0 66 45 987020 1 1414959398
+/blog/
+173.252.101.115
+0 1 1 119617 0 0
+-
+166.137.252.88
+0 4 4 222151 1 1415140232
+/
+76.171.8.42
+0 38 37 3115985 1 1415061465
+/schools.html
+66.249.69.134
+0 6 6 139404 4 1415146009
+/blog/
+62.219.8.232
+0 12 9 64898 1 1415072452
+/blog/
+82.80.244.58
+0 3 3 1649 0 0
+-
+75.82.148.53
+0 39 36 2963685 2 1415183976
+/
+108.184.189.13
+0 44 42 2489005 2 1415228631
+/
+173.51.221.22
+0 43 42 2670006 1 1414855270
+/program.html
+208.88.204.20
+0 58 56 4740500 2 1415192307
+/
+166.137.252.63
+0 24 24 1620644 1 1415116898
+/
+66.220.152.119
+0 1 1 140715 0 0
+-
+104.167.137.72
+0 9 7 230863 2 1415193136
+/blog/
+71.165.11.48
+0 35 34 1648420 1 1415060585
+/program.html
+108.185.232.156
+0 48 46 2875530 1 1415146677
+/schools.html
+172.248.36.8
+0 42 40 2983765 1 1415148723
+/
+5.45.77.35
+0 1 1 31195 1 1414996592
+/
+142.129.157.234
+0 24 24 1620644 1 1415059651
+/
+107.184.124.209
+0 1 0 767 0 0
+-
+70.211.141.220
+0 25 25 1620645 1 1415233950
+/send.php
+76.91.194.7
+0 46 45 2955117 1 1415059053
+/schools.html
+66.220.152.118
+0 1 1 31195 1 1414978434
+/
+70.197.66.231
+0 24 23 1601871 1 1414866799
+/
+172.56.39.102
+0 25 25 1964178 1 1415199453
+/
+71.106.162.225
+0 28 27 2026716 1 1415199069
+/
+74.101.230.92
+0 24 24 1620644 1 1415085089
+/
+70.211.140.236
+0 5 5 367643 1 1415203181
+/
+142.129.154.154
+0 24 23 1601871 1 1415147051
+/
+157.55.39.166
+0 2 2 177543 0 0
+-
+66.87.65.162
+0 10 10 816783 1 1415136299
+/
+67.171.216.234
+0 25 24 1621411 1 1415219249
+/
+23.242.82.3
+0 24 24 1620644 1 1415157301
+/
+166.137.8.96
+0 20 20 801109 2 1415209330
+/
+76.91.6.115
+0 20 18 1243302 1 1415061910
+/
+173.252.110.118
+0 1 1 140715 0 0
+-
+66.249.84.227
+0 1 0 767 0 0
+-
+157.55.39.167
+0 2 1 24984 0 0
+-
+108.47.164.153
+0 48 46 2875530 1 1414972823
+-
+107.14.56.128
+0 24 24 1620644 1 1415016532
+/
+66.249.69.12
+0 2 0 1534 0 0
+-
+66.249.69.251
+0 1 1 31195 1 1414842142
+/
+24.41.33.36
+0 27 26 2029509 1 1415072838
+/
+82.80.249.158
+0 18 14 163514 2 1415069738
+/blog/
+192.114.71.13
+0 86 82 3321319 2 1415072378
+/blog/
+23.242.65.224
+0 3 1 32729 1 1415106185
+/
+66.249.69.239
+0 2 1 31962 1 1414818260
+/
+108.184.174.96
+0 58 55 3685329 3 1415196194
+/
+71.95.145.122
+0 1 1 31195 1 1415222304
+/
+198.72.148.158
+0 70 70 4784242 4 1415224027
+/
+76.175.20.243
+0 83 83 3254938 3 1415223240
+/program.html
+172.249.200.211
+0 26 26 1880976 1 1414924986
+/
+108.184.169.59
+0 12 12 1140061 1 1415055490
+/
+62.210.82.148
+0 11 9 58373 4 1415074227
+/blog/
+76.79.238.82
+0 100 97 5470110 2 1415192857
+/
+108.184.165.14
+0 23 18 1001048 1 1415059776
+/
+66.87.66.136
+0 35 34 2587422 1 1414943812
+-
+66.249.69.150
+0 6 4 125088 3 1415118615
+/blog/
+166.137.8.30
+0 24 24 1620644 1 1415220420
+/
+173.252.120.118
+0 1 1 122465 0 0
+-
+108.89.85.122
+0 24 24 1620644 1 1414848092
+/
+157.55.39.184
+0 2 1 111894 1 1415054661
+-
+172.248.47.173
+0 39 37 2543006 0 0
+-
+166.137.8.126
+0 24 24 1589450 1 1414925884
+/send.php
+172.56.31.74
+0 11 11 845893 1 1415014929
+/
+107.184.125.251
+0 45 43 2701968 1 1414851866
+/program.html
+63.192.82.30
+0 43 41 2457810 1 1415101936
+-
+71.95.144.150
+0 24 24 767924 1 1415055075
+/program.html
+71.189.145.67
+0 81 79 4922292 2 1415029310
+/schools.html
+63.226.124.132
+0 28 28 1825401 1 1415028129
+/why.html
+157.55.39.155
+0 2 1 6595 0 0
+-
+46.19.86.160
+0 24 24 1620644 1 1414803927
+/
+23.242.90.77
+0 49 48 3079984 1 1414867987
+/
+64.183.42.55
+0 41 39 2314824 1 1415212729
+/program.html
+157.55.39.140
+0 1 1 29110 0 0
+-
+66.249.85.59
+0 1 1 31195 1 1415057828
+/
+96.25.196.0
+0 16 16 913990 1 1415055908
+/
+66.15.79.193
+0 48 46 3082019 1 1415109684
+/schools.html
+76.219.226.81
+0 25 24 1621411 1 1414948121
+/
+66.249.84.215
+0 1 1 31195 1 1415125175
+/
+131.179.18.227
+0 5 4 337215 0 0
+-
+76.174.176.211
+0 36 36 1907985 1 1415201506
+/program.html
+76.170.168.130
+0 35 35 1876790 1 1415060329
+/program.html
+72.67.117.136
+0 87 75 4512243 2 1415235535
+/program.html
+98.148.104.126
+0 49 47 2906725 1 1414933201
+-
+71.106.214.179
+0 24 24 1620644 1 1414890494
+/
+66.96.183.12
+0 9 9 0 8 1415218573
+/blog/wp-cron.php
+82.80.244.52
+0 4 4 519286 0 0
+-
+157.55.39.182
+0 1 1 94880 0 0
+-
+66.220.158.117
+0 1 1 140715 0 0
+-
+70.211.141.129
+0 1 0 767 0 0
+-
+104.167.140.237
+0 1 1 31195 1 1414876083
+/
+82.80.234.142
+0 4 4 225325 0 0
+-
+76.219.226.101
+0 24 24 1620644 1 1415094015
+/
+80.250.99.36
+0 43 42 2488238 1 1415102181
+/why.html
+207.241.226.231
+0 3 1 32729 1 1415121697
+/
+66.249.69.166
+0 8 6 140012 5 1415031772
+/
+174.251.209.60
+0 7 7 508055 1 1415049293
+/
+50.136.222.116
+0 41 39 2706818 2 1415031072
+/schools.html
+164.67.21.207
+0 2 1 20307 0 0
+-
+208.84.225.10
+0 18 13 1043494 1 1415059613
+/
+71.254.158.96
+0 4 3 57650 1 1415033168
+/program.html
+104.167.137.120
+0 20 17 1114890 0 0
+-
+184.154.36.168
+0 136 90 1975066 2 1415132223
+/blog/
+198.2.56.18
+0 1 1 31195 1 1415015791
+/
+71.107.51.169
+0 97 91 5576174 5 1415203701
+/
+108.185.253.124
+0 114 111 6270471 2 1415122838
+/send.php
+82.80.249.164
+0 3 3 220674 0 0
+-
+172.56.30.237
+0 7 7 761255 1 1415038449
+/schools.html
+71.107.250.93
+0 61 61 3872163 1 1415148822
+/program.html
+108.207.43.37
+0 37 37 1939180 2 1414866197
+/
+166.137.118.107
+0 49 49 3584822 2 1414870069
+/
+108.23.32.167
+0 25 24 1621411 1 1415053979
+/
+166.170.14.93
+0 28 28 2034636 2 1414925411
+/
+207.241.229.237
+0 1 1 31195 1 1415121709
+/
+184.154.36.166
+0 70 45 988046 1 1415045951
+/blog/
+70.211.67.135
+0 29 28 1826168 1 1415015307
+/why.html
+204.148.34.138
+0 1 0 767 0 0
+-
+82.80.234.132
+0 2 2 193342 0 0
+-
+107.139.229.183
+0 48 43 2476694 1 1415089238
+/blog/
+166.170.14.61
+0 3 3 382797 0 0
+-
+173.252.110.117
+0 1 1 140715 0 0
+-
+192.99.107.190
+0 2 0 512 1 1414807902
+/
+173.252.110.114
+0 1 1 140715 0 0
+-
+172.56.31.174
+0 4 4 413992 1 1415217922
+/
+172.250.6.199
+0 1 1 31195 1 1415068342
+/
+172.56.31.119
+0 9 9 721903 1 1415021648
+/
+166.137.8.86
+0 1 1 31195 1 1415226199
+/
+172.249.193.159
+0 1 0 767 0 0
+-
+23.242.16.228
+0 135 135 9044529 5 1415182688
+/
+184.154.36.163
+0 70 45 988046 1 1415218619
+/blog/
+157.242.222.182
+0 37 37 2251519 1 1415225617
+/program.html
+195.154.168.123
+0 1 1 7462 1 1415054678
+/blog/
+71.106.47.186
+0 48 47 2905958 1 1414806508
+/
+98.225.10.104
+0 25 24 1621411 1 1415220751
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+70.211.141.220
+0 25 25 1620645 1 1415233950
+/send.php
+72.67.117.136
+0 38 36 1909519 1 1415235535
+/program.html
+# End Of Table - sites (daily)
+# -referrers- 
+http://coderevkids.com/schools.html
+1 48
+http://www.google.com/url
+1 103
+http://www.coderevkids.com/blog
+1 3
+http://lm.facebook.com/l.php
+0 1
+http://www.coderevkids.com/index.html
+1 68
+http://www.coderevkids.com/program.html
+1 319
+http://www.google.com/search
+1 1
+http://coderevkids.com/program.html
+1 89
+http://www.coderevkids.com/
+1 1034
+http://r.search.yahoo.com/_ylt
+1 2
+http://t.co/M0MgbW5n1h
+0 1
+https://www.google.com/
+1 4
+- (Direct Request)
+0 556
+http://coderevkids.com/blog/wp-login.php
+1 2
+http://www.coderevkids.com/schools.html
+1 85
+http://www.coderevkids.com/why.html
+1 66
+Google
+2 132
+http://coderevkids.com/why.html
+1 18
+http://coderevkids.com
+1 1
+http://l.facebook.com/l/NAQEz9rbtAQHcZ6YC7x1hYuemR3AXp4GHZ2ITHomaYzYG3g/www.coderevkids.com/
+1 1
+http://www.coderevkids.com/rs-plugin/css/settings.css
+1 24
+https://m.facebook.com
+0 1
+http://coderevkids.com/index.html
+1 39
+http://coderevkids.com/blog/
+1 47
+http://search.yahoo.com/search
+1 1
+http://www.google.com/
+1 24
+http://coderevkids.com/rs-plugin/css/settings.css
+1 19
+http://www.coderevkids.com/css/style.css
+1 183
+http://coderevkids.com/
+1 589
+http://coderevkids.com/css/style.css
+1 142
+Yahoo!
+2 3
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0
+0 2947
+MSIE 7.0
+0 7
+MSIE 10.0
+0 43
+archive.o
+0 4
+Netscape 6 compatible
+2 2947
+SiteLockSpider [en] (WinNT; I ;Nav)
+0 242
+PHP/5.3.30
+0 2
+meanpathbot/1.0
+0 2
+Googlebot-Image/1.0
+0 1
+Internet Explorer 6
+2 1
+Mozilla/6.0 (compatible)
+0 1
+facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+0 8
+MSIE 9.0
+0 165
+Googlebot/2.1
+0 24
+MSIE 6.0
+0 1
+PHP/5.{3|2}.{1|2|3|4|5|6|7|8|9|0}{1|2|3|4|5|6|7|8|9|0}
+0 1
+MobileSafari/9537.53 CFNetwork/672.1.15 Darwin/14.0.0
+0 7
+WordPress/4.0; http://coderevkids.com/blog
+0 9
+bingbot/2.0
+0 6
+# End Of Table - agents
+# -search strings- 
+www.coderevkids. com
+1
+www.coderevkids.com
+1
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames
